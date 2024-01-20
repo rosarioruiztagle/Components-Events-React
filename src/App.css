@@ -1,0 +1,29 @@
+#root {
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 3.5rem;
+  text-align: center;
+  background-image: linear-gradient(to top, #b6edeb 0%, #d8e7b7 100%);
+  border-radius: 5px;
+}
+
+.bg-success {
+  border-radius: 100%;
+  font-size: 170%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  place-items: center;
+  min-width: 350px;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #00403e 0%, #1f2c00 100%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+    -webkit-animation: logo-spin infinite 20s linear;
+  }
+}

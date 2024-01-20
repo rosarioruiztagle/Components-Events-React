@@ -1,0 +1,22 @@
+:root {
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
