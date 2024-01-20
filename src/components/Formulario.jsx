@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
@@ -132,5 +133,11 @@ function Formulario({ setMessage, setBsStyle }) {
     </Form>
   );
 }
+
+// Validación de Props
+Formulario.propTypes = {
+  setMessage: PropTypes.func.isRequired,
+  setBsStyle: PropTypes.func.isRequired,
+};
 
 export default Formulario;
